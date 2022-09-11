@@ -28,16 +28,16 @@ export default function WalloF(){
                     </div>
                     <div className="wall-item">
                         
-                        <img src="http://placeimg.com/640/360/any" alt="" className="w-item-img" />
-                            <h4 className="w-item-title">
+                        <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/project7.jpeg" alt="" className="w-item-img" />
+                            <h4 className="w-item-title text-dark">
                             Meme Generator
                             </h4>
                             <ul className="w-item-data">
                                 <li className="w-item-link">
                                     <a href="https://joellh.github.io/meme-generator/" className="w-item-btn" target="_blank">Live</a>
                                 </li>
-                                <li className="w-item-git">
-                                    <a href="#" className=" w-item-btn btn-black">Github</a>
+                                <li className="w-item-git ">
+                                    <a href="https://github.com/JoelLH/meme-generator" target="_blank" className=" w-item-btn btn-black bg-dark">Github</a>
                                 </li>
                             </ul>
                             <div className="leader-board silver">02</div>
