@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Karla:wght@500;600;800&display=swap');
+:root{
+    /* FONTS */
+    --main-font: 'Inter',sans-serif;
+    --title-font: 'Karla', sans-serif;
+    --title-color: #6761A8;
+    --text-color: #444;
+    --text-highlight: #009B72;
+    --light-green: #b4c7cf;
+    --red-accent: #F26430;
+}
+
+body{
+    font-family: var(--main-font);
+    color: var(--text-color);
+    background-color: hsl(0, 0%, 98%);
+    min-height: 100vh;
+}
+ul,ol{
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.title-color{
+    color: var(--title-color);
+    font-family: var(--title-font);
+}
+.card{
+    border: 1px solid var(--light-green);
+    background-color: rgb(255, 255, 255) !important;
+}
+.card-header{
+    background-color: white;
+}
+/* HEADER */
+.main-header{
+    border-top: 1px solid var(--light-green);
+    border-bottom: 1px solid var(--light-green);
+    background-color: hsl(0, 0%, 98%);
+
+}
+.main-navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand{
+    border-left:1px solid var(--light-green) ;
+    border-right:1px solid var(--light-green) ;
+    height: 100%;
+    font-family: var(--title-font);
+    font-size: 1.2rem;
+    padding: 12px 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.main-nav{
+    gap: 20px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+
+}
+.nav-item img{
+    margin-left: 2px;
+    width: 22px;
+    height: 22px;
+}
+.femImg{
+    filter: brightness(20%);
+}
+.nav-link{
+    color: #555;
+    font-weight: 500;
+    position: relative;
+    font-size: 1rem;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: var(--red-accent);
+    left: 0;
+    bottom: 8px;
+    transition: all .2s ease-in-out;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.nav-link img{
+    transition: all .2s ease-in-out;
+}
+.nav-link:hover + img{
+    transform: translateY(-5px);
+}
+/* MAIN CONTENT */
+
+.main-container{
+    margin-top: 40px;
+}
+/* INTRO */
+.intro-card{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.intro-card .card-body{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro__img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid rgb(181, 181, 181);
+    margin-bottom: 15px;
+}
+.main-name{
+    color: var(--title-color);
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 2rem;
+}
+.card-subtitle{
+    color: var(--text-highlight);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+.availability-wrapper{
+    border: 1px solid rgb(191, 191, 191);
+    padding: .3rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 4px;
+}
+.check-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 224, 0);
+    border-radius: 50%;
+}
+/* Skills */
+.skills-card{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+
+}
+.skills__title{
+    color: var(--title-color);
+    margin-bottom: 15px;
+    font-family: var(--title-font);
+    font-weight: 600;
+}
+.skills-ul{
+    display: flex;
+    flex-flow: column;
+    padding-left: 15px;
+    gap: 10px;
+}
+
+.dev-img{
+    width: 25px;
+    height: 25px;
+}
+/*  CONTENT*/
+.content-header{
+    display: flex;
+}
+.content_item{
+    font-weight: 500;
+    border-bottom: 1px solid var(--text-color);
+    padding: 0 15px;
+    transition: all ease-in-out .2;
+    cursor: pointer;
+    
+}
+
+.content__link:hover{
+    color: var(--title-color) !important;
+}
+.content_item.active{
+    color: var(--text-highlight);
+    border-bottom: 2px solid var(--text-highlight);
+}
+.main-cta{
+    background-color: var(--red-accent);
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: .5rem 2.2rem;
+    border: 2px solid var(--red-accent);
+    font-family: var(--title-font);
+    font-weight: 600;
+}
+.main-cta:hover{
+    color: white;
+    filter: brightness(85%);
+}
+.main-cta:active{
+    border: 2px solid white;
+    filter: unset;
+}
+.about-wrapper{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+.project-cards-wrapper{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+.about-text{
+    font-size: 1.2rem;
+}
+/* EDUCATION */
+.list-group{
+    border-radius: unset;
+}
+.edu-list-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: unset ;
+    border-bottom: 1px solid gainsboro;
+}
+.edu-list-item:last-of-type{
+    border: unset;
+}
+.edu-item-data > *{
+    margin: 0;
+}
+.edu-item-img{
+    width: 140px;
+    height: 140px;
+}
+.edu-item-school{
+    color: var(--text-highlight);
+    font-weight: 500;
+    font-size: .9rem;
+}
+.edu-item-title{
+    font-size: 1rem;
+    color: var(--title-color);
+    font-weight: 500;
+}
+.edu-item-footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.edu-spacer{
+    width: 5px;
+    height: 5px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+/* WALL OF FAME */
+.wall-body{
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+.wall-item{
+    display: flex;
+    align-items: center;
+    height: 135px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.w-item-img{
+    height: 100%;
+    width: 100%;
+}
+.wall-item:hover .w-item-overlay{
+    top: 60%;
+}
+
+.w-item-title{
+    font-size: 1.1rem;
+    font-family: var(--title-font);
+    color: white;
+    font-weight: 600;
+    margin-bottom: 2px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+}
+.w-item-data{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.w-item-btn{
+    background-color: white;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    padding: .1rem .4rem;
+}
+.w-item-btn:hover{
+    color:black;
+    filter: brightness(90%)
+}
+.btn-black{
+    background: rgba(255, 255, 255, 0.401);
+    color: white;
+}
+.leader-board{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    padding-top: 25px;
+    padding-right: 25px;
+    right: -37.5px;
+    top: -37.5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    border-radius: 50%;
+}
+.gold{ background-color: #ffcc00;}
+.silver{ background-color: #c0c0c0;}
+.bronze{ background-color: #d2691e;}
+/* PROJECTS */
+.card-img{
+    border-radius: unset;
+    padding: 5px;
+}
+.site-links{
+    gap: 10px;
+    align-items: center;
+}
+.card-live-link{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--red-accent);
+}
+.site-tech{
+    gap: 10px
+}
+div[class^="col-lg"]{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .wall-col{
+        display: none !important;
+    }
+}
