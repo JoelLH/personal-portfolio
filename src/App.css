@@ -6,7 +6,7 @@
     --title-color: #6761A8;
     --text-color: #444;
     --text-highlight: #009B72;
-    --light-green: #b4c7cf;
+    --light-green: #9cbdb4;
     --red-accent: #F26430;
 }
 
@@ -31,6 +31,10 @@ a{
 .card{
     border: 1px solid var(--light-green);
     background-color: rgb(255, 255, 255) !important;
+}
+.card-text{
+    font-size: 1.2rem;
+    padding: 10px;
 }
 .card-header{
     background-color: white;
@@ -105,9 +109,13 @@ a{
     margin-top: 40px;
 }
 /* INTRO */
+.intro-col{
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+}
 .intro-card{
     text-align: center;
-    margin-bottom: 25px;
 }
 .intro-card .card-body{
     display: flex;
@@ -179,6 +187,7 @@ a{
 /*  CONTENT*/
 .content-header{
     display: flex;
+    padding: 0 20px;
 }
 .content_item{
     font-weight: 500;
@@ -197,36 +206,72 @@ a{
     border-bottom: 2px solid var(--text-highlight);
 }
 .main-cta{
-    background-color: var(--red-accent);
-    color: white;
     font-size: 1.1rem;
     text-transform: uppercase;
-    border-radius: 30px;
-    padding: .5rem 2.2rem;
-    border: 2px solid var(--red-accent);
+    transition: all ease-in-out .2s;
     font-family: var(--title-font);
     font-weight: 600;
-}
-.main-cta:hover{
+    position: relative;
     color: white;
-    filter: brightness(85%);
+    padding: .4rem 2.2rem;
+    border-radius: 10px;
+    background-color: var(--red-accent);
+    border: 2px solid var(--red-accent);
 }
-.main-cta:active{
-    border: 2px solid white;
-    filter: unset;
+.main-cta:hover {
+    background-color: transparent;
+    border-radius: unset;
+    transition: all ease-in-out .2s;
+    animation: ctaFlash 5s ease-in-out infinite;
+    color: var(--red-accent);
 }
+/* .main-cta::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: 3px dashed var(--title-color);
+    transition: all ease-in-out .2s;
+    animation: ctaFlash 5s ease-in-out infinite;
+} */
+@keyframes ctaFlash {
+    0%{
+        border: 2px dashed var(--title-color);
+        color: var(--title-color);
+        
+    }
+    25%{
+        border: 2px dashed var(--red-accent);
+        color: var(--red-accent);
+    }
+    50%{
+        border: 2px dashed var(--title-color);
+        color: var(--title-color);
+    }
+    75%{
+        border: 2px dashed var(--red-accent);
+        color: var(--red-accent);
+    }
+    100%{
+        border: 2px dashed var(--title-color);
+        color: var(--title-color);
+    }
+    
+}
+
+
 .about-wrapper{
     display: flex;
     flex-flow: column;
     gap: 20px;
 }
-.project-cards-wrapper{
-    display: flex;
-    flex-flow: column;
-    gap: 20px;
-}
+
 .about-text{
     font-size: 1.2rem;
+    background-color: #d9f3eb;
+    border-radius: 10px;
 }
 /* EDUCATION */
 .list-group{
@@ -358,9 +403,14 @@ a{
 .silver{ background-color: #c0c0c0;}
 .bronze{ background-color: #d2691e;}
 /* PROJECTS */
+.project-cards-wrapper {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
 .card-img{
     border-radius: unset;
-    padding: 5px;
+    padding: 20px;
 }
 .site-links{
     gap: 10px;

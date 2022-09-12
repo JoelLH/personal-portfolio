@@ -44,7 +44,7 @@ export default function Main(){
         <main>
             <div className="container main-container">
                 <div className="row">
-                <div className="col-lg">
+                <div className="col-lg intro-col">
                     <div className="card intro-card">
                         <div className="card-body">
                             <img src={coverImg} alt="" className="intro__img"/>
@@ -57,6 +57,17 @@ export default function Main(){
                         </div>
                         </div>
                     </div>
+                    <div className="card languages-card">
+                        <div className="card-body">
+                            <h4 className="card-title skills__title">Languages</h4>
+                            <ul className="skills-ul">
+                                <li className="skills__li"> Spanish: Native</li>
+                                <li className="">
+                                    English: Intermediate
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <div className="card skills-card">
                         <div className="card-body">
                             <h4 className="card-title skills__title">Skills</h4>
@@ -65,37 +76,37 @@ export default function Main(){
                                 <span>
                                     React
                                 </span> 
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className="text-end dev-img"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className="text-end dev-img" alt="react logo"/>
                             </li>
                             <li className="skills__li d-flex justify-content-between">
                                 <span>
                                     Redux
                                 </span> 
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" className="text-end dev-img"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" className="text-end dev-img" alt="redux logo"/>
                             </li>
                             <li className="skills__li d-flex justify-content-between">
                                 <span>
                                     JavaScript
                                 </span> 
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="text-end dev-img"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="text-end dev-img" alt="javascript logo"/>
                             </li>
                             <li className="skills__li d-flex justify-content-between">
                                 <span>
                                     Html & CSS
                                 </span> 
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original-wordmark.svg" className="text-end dev-img"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original-wordmark.svg" className="text-end dev-img" alt="devicon logo"/>
                             </li>
                             <li className="skills__li d-flex justify-content-between">
                                 <span>
                                     SaSS
                                 </span> 
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" className="text-end dev-img"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" className="text-end dev-img" alt="sass logo"/>
                             </li>
                             <li className="skills__li d-flex justify-content-between">
                                 <span>
                                     Bootstrap
                                 </span> 
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" className="text-end dev-img"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" className="text-end dev-img" alt="bootstrap logo"/>
                             </li>
                         </ul>
                         </div>
@@ -114,7 +125,7 @@ export default function Main(){
                                 </li>
                             </ul>
                         </nav>
-                        <a href="#" className="main-cta">
+                        <a href="mailto:jhectorlopezh@gmail.com?Subject=Enquiry%20regarding%20product" className="main-cta">
                             Contact Me
                         </a>
                     </header>
@@ -128,7 +139,8 @@ export default function Main(){
                             </div>
                             <div className="card-body">
                                 <p className="card-text about-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quia tempora quibusdam enim! Doloribus dicta debitis libero corporis dignissimos optio. Aliquam magnam similique debitis distinctio optio aspernatur quaerat facilis. Necessitatibus?
+                                    Hello! I'm a 27 years old Web Developer from Mexico.
+                                    I enjoy taking site ideas and transforming them into web products in the front-end side. My core skills involve Html&Css, React and Javascript. Let's work together!
                                 </p>
                             </div>
                         </div>
@@ -137,7 +149,7 @@ export default function Main(){
                                 <h3 className="card-title title-color">
                                     Education
                                 </h3>
-                                <p className="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p className="card-text text-muted">Look into my education history</p>
                             </div>
                             <div className="card-body">
                                 <div className="list-group">
