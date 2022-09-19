@@ -3,11 +3,11 @@
     /* FONTS */
     --main-font: 'Inter',sans-serif;
     --title-font: 'Karla', sans-serif;
-    --title-color: #6761A8;
+    --title-color: #0375b4;
     --text-color: #444;
-    --text-highlight: #009B72;
-    --light-green: #9cbdb4;
-    --red-accent: #F26430;
+    --text-highlight: #007849;
+    --light-green: #bbb;
+    --red-accent: #ffc800;
 }
 
 body{
@@ -276,18 +276,21 @@ a{
 /* EDUCATION */
 .list-group{
     border-radius: unset;
+    border-radius: 10px;
+    gap: 10px;
+    
 }
 .edu-list-item{
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
     border: unset ;
-    border-bottom: 1px solid gainsboro;
+    background-color: #f8f8f8;
 }
-.edu-list-item:last-of-type{
-    border: unset;
+.edu-list-item:hover{
+    background-color: white;
 }
 .edu-item-data > *{
     margin: 0;
