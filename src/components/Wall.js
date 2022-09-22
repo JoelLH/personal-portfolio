@@ -43,16 +43,21 @@ export default function WalloF(){
                             <div className="leader-board silver">02</div>
                     </div>
                     <div className="wall-item">
-                        <img src="http://placeimg.com/640/360/any" alt="" className="w-item-img" />
+                        <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/wall3.jpeg" alt="" className="w-item-img" />
                             <h4 className="w-item-title">
-                            Lorem, ipsum dolor.
+                            Markdown Editor
                             </h4>
                             <ul className="w-item-data">
                                 <li className="w-item-link">
-                                    <a href="#" className=" w-item-btn">Live</a>
+                                    <a href="https://markdown-preview-jhweb.netlify.app/"
+                                    target="_blank"
+                                    className=" w-item-btn">Live</a>
                                 </li>
                                 <li className="w-item-git">
-                                    <a href="#" className=" w-item-btn btn-black">Github</a>
+                                    <a href="https://github.com/JoelLH/markdown-previewer"
+                                    className=" w-item-btn btn-black"
+                                    target="_blank"
+                                    >Github</a>
                                 </li>
                             </ul>
                             <div className="leader-board bronze">03</div>
