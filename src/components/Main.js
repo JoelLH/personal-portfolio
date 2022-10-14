@@ -125,7 +125,7 @@ export default function Main(){
                                 </li>
                             </ul>
                         </nav>
-                        <a href="mailto:jhectorlopezh@gmail.com?Subject=Enquiry%20regarding%20product" className="main-cta">
+                        <a href="https://www.facebook.com/HH-DeWeb-107033422079541" className="main-cta">
                             Contact Me
                         </a>
                     </header>
@@ -153,18 +153,18 @@ export default function Main(){
                             </div>
                             <div className="card-body">
                                 <div className="list-group">
-                                    <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/" target="_blank" className="list-group-item list-group-item-action edu-list-item">
+                                    <a href="https://www.freecodecamp.org/certification/JoelLopez/front-end-development-libraries" target="_blank" className="list-group-item list-group-item-action edu-list-item">
                                         <img src={frameWorks} alt=""  className="edu-item-img"/>
                                         <div className="edu-item-data"> 
                                             <p className="edu-item-school">FreeCodeCamp</p>
                                             <p className="edu-item-title">Front End Development Libraries</p>
                                             <div className="edu-item-footer">
                                                 <span className="edu-type">
-                                                    Pending
+                                                    Certificate
                                                 </span>
                                                 <span className="edu-spacer"></span>
                                                 <span className="endDate">
-                                                    Current
+                                                    End: 08/10/2022
                                                 </span>
                                             </div>
                                         </div>

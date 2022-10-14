@@ -6,13 +6,19 @@ export default function Projects(){
             <div className="card project-card">
                 <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/project3.jpeg" alt="" className="card-img"/>
                 <div className="card-body">
-                    <h3 className="card-title title-color">
-                        Snap Hero (Responsive Menus)
-                    </h3>
+                    <a href="https://intro-dropdown-nav.netlify.app/#" className="card-title title-color">
+                        Responsive Hero section
+                    </a>
                     
-                    <p className="card-text ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quia tempora quibusdam enim! Doloribus dicta debitis libero corporis dignissimos optio. Aliquam magnam similique debitis distinctio optio aspernatur quaerat facilis. Necessitatibus?
-                    </p>
+                    <div className="card-text ">
+                        <p>Responsive website hero section with dropdown menus</p>
+                        Features: 
+                        <ul className="project-ul">
+                            <li>View the relevant dropdown menus on desktop and mobile when interacting with the navigation links</li>
+                            <li>Optimal layout for the content depending on their device's screen size</li>
+                            <li>Hover states for all interactive elements on the page</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="card-footer d-flex justify-content-between">
                     <div className="site-links d-flex">
@@ -29,12 +35,17 @@ export default function Projects(){
             <div className="card project-card">
                 <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/Project4.jpeg" alt="" className="card-img"/>
                 <div className="card-body">
-                    <h3 className="card-title title-color">
+                    <a href="https://randomequotejhweb.netlify.app/#" className="card-title title-color">
                         Random Quote Machine
-                    </h3>
+                    </a>
                     
                     <p className="card-text ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quia tempora quibusdam enim! Doloribus dicta debitis libero corporis dignissimos optio. Aliquam magnam similique debitis distinctio optio aspernatur quaerat facilis. Necessitatibus?
+                        Features: 
+                        <ul className="project-ul">
+                            <li>Fetch random quote from public API</li>
+                            <li>Displays random quote each time new quote button is pressed</li>
+                            <li>Changes background color when a new quote is displayed</li>
+                        </ul>
                     </p>
                 </div>
                 <div className="card-footer d-flex justify-content-between">
@@ -52,13 +63,19 @@ export default function Projects(){
             <div className="card project-card">
                 <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/Project5.jpeg" alt="" className="card-img"/>
                 <div className="card-body">
-                    <h3 className="card-title title-color">
+                    <a href="https://cute-florentine-bf3141.netlify.app/" className="card-title title-color">
                         Interactive Pricing Component
-                    </h3>
+                    </a>
                     
-                    <p className="card-text ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quia tempora quibusdam enim! Doloribus dicta debitis libero corporis dignissimos optio. Aliquam magnam similique debitis distinctio optio aspernatur quaerat facilis. Necessitatibus?
-                    </p>
+                    <div className="card-text">
+                        <p>Responsive interactive price component with slider</p>
+                        Features: 
+                        <ul className="project-ul">
+                            <li>View the optimal layout for the app depending on their device's screen size</li>
+                            <li>See hover states for all interactive elements on the page</li>
+                            <li>Use the slider and toggle to see prices for different page view numbers</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="card-footer d-flex justify-content-between">
                     <div className="site-links d-flex">
@@ -73,21 +90,28 @@ export default function Projects(){
                 </div>
             </div>
             <div className="card project-card">
-                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/Project6.jpeg" alt="" className="card-img"/>
+                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/pomodoro-timer.jpeg" alt="" className="card-img"/>
                 <div className="card-body">
-                    <h3 className="card-title title-color">
-                        Interactive Card Info
-                    </h3>
+                    <a href="https://pomodorotimer-joelwebdev.netlify.app/" className="card-title title-color">
+                        Pomodoro Timer
+                    </a>
                     
-                    <p className="card-text ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quia tempora quibusdam enim! Doloribus dicta debitis libero corporis dignissimos optio. Aliquam magnam similique debitis distinctio optio aspernatur quaerat facilis. Necessitatibus?
-                    </p>
+                    <div className="card-text">
+                        <p>The pomodoro  is a productivity and time management timer that breaks 30min intervals into 25mins of focused work and 5 mins breaks</p>
+                        Features: 
+                        <ul className="project-ul">
+                            <li>Session and breaks controls</li>
+                            <li>Timer display that changes depending on the current status</li>
+                            <li>Start/Stop and reset controls</li>
+
+                        </ul>
+                    </div>
                 </div>
                 <div className="card-footer d-flex justify-content-between">
                     <div className="site-links d-flex">
-                        <a href="https://github.com/JoelLH/frontend-projects/tree/main/interactive-card" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  className="dev-img" alt=""/></a>
+                        <a href="https://github.com/JoelLH/Projects/tree/main/pomodoro-timer" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  className="dev-img" alt=""/></a>
                         
-                        <a href="https://react-app-cards.netlify.app/" className="card-live-link" target="_blank">Live</a>
+                        <a href="https://pomodorotimer-joelwebdev.netlify.app/" className="card-live-link" target="_blank">Live</a>
                     </div>
                     <div className="site-tech d-flex">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className="text-end dev-img" alt="react logo"/>
@@ -96,23 +120,30 @@ export default function Projects(){
                 </div>
             </div>
             <div className="card project-card">
-                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/project1.png" alt="" className="card-img"/>
+                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/interactive-comments.jpeg" alt="Interactive Comments Section" className="card-img"/>
                 <div className="card-body">
-                    <h3 className="card-title title-color">
-                        Petshop Landing Page
-                    </h3>
-                    
-                    <p className="card-text ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quia tempora quibusdam enim! Doloribus dicta debitis libero corporis dignissimos optio. Aliquam magnam similique debitis distinctio optio aspernatur quaerat facilis. Necessitatibus?
-                    </p>
+                    <a href="https://curious-marshmallow-469d68.netlify.app/" className="card-title title-color">
+                        Interactive comments section
+                    </a>
+                    <div className="card-text ">
+                        <p>Comment section page built with vanilla JavaScript</p>
+                        Features: 
+                        <ul className="project-ul">
+                            <li>View the optimal layout  depending on their device's screen size</li>
+                            <li>Hover states for all interactive elements on the page</li>
+                            <li>Create, Read, Update, and Delete comments and replies
+                            Upvote and downvote comments</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="card-footer d-flex justify-content-between">
                     <div className="site-links d-flex">
-                        <a href="https://github.com/JoelLH/Projects/tree/main/Pets" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  className="dev-img" alt=""/></a>
+                        <a href="https://github.com/JoelLH/frontend-projects/tree/main/interactive-comments-section-main" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  className="dev-img" alt=""/></a>
                         
-                        <a href="https://petjoy.netlify.app/" className="card-live-link" target="_blank">Live</a>
+                        <a href="https://curious-marshmallow-469d68.netlify.app/" className="card-live-link" target="_blank">Live</a>
                     </div>
                     <div className="site-tech d-flex">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="text-end dev-img" alt="javascript logo"/>
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original-wordmark.svg" className="text-end dev-img" alt="devicon logo"/>
                     </div>
                 </div>
@@ -120,13 +151,18 @@ export default function Projects(){
             <div className="card project-card">
                 <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/project2.jpeg" alt="" className="card-img"/>
                 <div className="card-body">
-                    <h3 className="card-title title-color">
+                    <a href="https://heroic-dodol-52ad38.netlify.app/" className="card-title title-color">
                         Clipboard Landing Page (Responsive)
-                    </h3>
+                    </a>
                     
-                    <p className="card-text ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quia tempora quibusdam enim! Doloribus dicta debitis libero corporis dignissimos optio. Aliquam magnam similique debitis distinctio optio aspernatur quaerat facilis. Necessitatibus?
-                    </p>
+                    <div className="card-text ">
+                        <p>Responsive website landing page</p>
+                        Features:
+                        <ul className="project-ul">
+                            <li>View the optimal layout for the site depending on their device's screen size</li>
+                        <li>See hover states for all interactive elements on the page</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="card-footer d-flex justify-content-between">
                     <div className="site-links d-flex">

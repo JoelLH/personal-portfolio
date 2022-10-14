@@ -21,7 +21,7 @@ export default function WalloF(){
                                     <a href="https://e-commerce-joelweb.netlify.app/" className=" w-item-btn" target="_blank">Live</a>
                                 </li>
                                 <li className="w-item-git ">
-                                    <a href="https://github.com/JoelLH/frontend-projects/tree/main/ecommerce-page-react" className=" w-item-btn btn-black bg-dark" target="_blank">Github</a>
+                                    <a href="https://github.com/JoelLH/frontend-projects/tree/main/ecommerce-page-react" className=" w-item-btn btn-black bg-dark text-light" target="_blank">Github</a>
                                 </li>
                             </ul>
                             <div className="leader-board gold">01</div>
@@ -36,15 +36,15 @@ export default function WalloF(){
                                 <li className="w-item-link">
                                     <a href="https://joellh.github.io/meme-generator/" className="w-item-btn" target="_blank">Live</a>
                                 </li>
-                                <li className="w-item-git ">
-                                    <a href="https://github.com/JoelLH/meme-generator" target="_blank" className=" w-item-btn btn-black bg-dark">Github</a>
+                                <li className="w-item-git">
+                                    <a href="https://github.com/JoelLH/meme-generator" target="_blank" className=" w-item-btn text-light bg-dark">Github</a>
                                 </li>
                             </ul>
                             <div className="leader-board silver">02</div>
                     </div>
                     <div className="wall-item">
                         <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/wall3.jpeg" alt="" className="w-item-img" />
-                            <h4 className="w-item-title">
+                            <h4 className="w-item-title text-dark">
                             Markdown Editor
                             </h4>
                             <ul className="w-item-data">
@@ -55,7 +55,7 @@ export default function WalloF(){
                                 </li>
                                 <li className="w-item-git">
                                     <a href="https://github.com/JoelLH/markdown-previewer"
-                                    className=" w-item-btn btn-black"
+                                    className=" w-item-btn text-light bg-dark"
                                     target="_blank"
                                     >Github</a>
                                 </li>
