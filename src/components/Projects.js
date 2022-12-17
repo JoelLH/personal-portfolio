@@ -4,27 +4,29 @@ export default function Projects(){
     return (
         <div className="project-cards-wrapper">
             <div className="card project-card">
-                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/project3.jpeg" alt="" className="card-img"/>
+                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/watchlist-joelweb.png" alt="" className="card-img"/>
                 <div className="card-body">
-                    <a href="https://intro-dropdown-nav.netlify.app/#" className="card-title title-color">
-                        Responsive Hero section
+                    <a href="https://watchlist-joelweb.netlify.app/" className="card-title title-color">
+                        Film search app
                     </a>
                     
                     <div className="card-text ">
-                        <p>Responsive website hero section with dropdown menus</p>
+                        <p>One page application to search for films and create a personal watchlist.
+                        It uses fetch to call OMDb API to get the user search and localStorage to create the watchlist
+                        </p>
                         Features: 
                         <ul className="project-ul">
-                            <li>View the relevant dropdown menus on desktop and mobile when interacting with the navigation links</li>
-                            <li>Optimal layout for the content depending on their device's screen size</li>
-                            <li>Hover states for all interactive elements on the page</li>
+                            <li>Responsive display of search results and watchlist</li>
+                            <li>Modern UI </li>
+                            <li>Movies card with relevant information</li>
                         </ul>
                     </div>
                 </div>
                 <div className="card-footer d-flex justify-content-between">
                     <div className="site-links d-flex">
-                        <a href="https://github.com/JoelLH/frontend-projects/tree/main/intro-section-with-dropdown-navigation-main-react" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  className="dev-img" alt="github logo"/></a>
+                        <a href="https://github.com/JoelLH/ScrimbaProjects/tree/main/movie-watchlist" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  className="dev-img" alt="github logo"/></a>
                         
-                        <a href="https://intro-dropdown-nav.netlify.app/#" className="card-live-link" target="_blank">Live</a>
+                        <a href="https://watchlist-joelweb.netlify.app/" className="card-live-link" target="_blank">Live</a>
                     </div>
                     <div className="site-tech d-flex">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className="text-end dev-img" alt="react logo"/>
@@ -149,18 +151,18 @@ export default function Projects(){
                 </div>
             </div>
             <div className="card project-card">
-                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/project2.jpeg" alt="" className="card-img"/>
+                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/twindog-joewebdev.png" alt="" className="card-img"/>
                 <div className="card-body">
-                    <a href="https://heroic-dodol-52ad38.netlify.app/" className="card-title title-color">
-                        Clipboard Landing Page (Responsive)
+                    <a href="https://twindog-joewebdev.netlify.app/" className="card-title title-color">
+                        Tindog('tinder') web app  
                     </a>
                     
                     <div className="card-text ">
-                        <p>Responsive website landing page</p>
+                        <p>Aims to recreate tinder date app for dogs in a fun way. It uses class object constructor to create a new user dog for display</p>
                         Features:
                         <ul className="project-ul">
-                            <li>View the optimal layout for the site depending on their device's screen size</li>
-                        <li>See hover states for all interactive elements on the page</li>
+                            <li>Responsive web app</li>
+                            <li>Like and dislike buttons which trigger animations and display a corresponding badge</li>
                         </ul>
                     </div>
                 </div>
@@ -168,7 +170,7 @@ export default function Projects(){
                     <div className="site-links d-flex">
                         <a href="https://github.com/JoelLH/frontend-projects/tree/main/clipboard-landing-page-master" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  className="dev-img" alt="github logo"/></a>
                         
-                        <a href="https://heroic-dodol-52ad38.netlify.app/" className="card-live-link" target="_blank">Live</a>
+                        <a href="https://twindog-joewebdev.netlify.app/" className="card-live-link" target="_blank">Live</a>
                     </div>
                     <div className="site-tech d-flex">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original-wordmark.svg" className="text-end dev-img" alt="devicon logo"/>
@@ -178,28 +180,3 @@ export default function Projects(){
         </div>
     )
 }
-
-/* <span>
-            React
-        </span> 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className="text-end dev-img" alt="react logo"/>
-        <span>
-            Redux
-        </span> 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" className="text-end dev-img" alt="redux logo"/>
-        <span>
-            JavaScript
-        </span> 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="text-end dev-img" alt="javascript logo"/>
-        <span>
-            Html & CSS
-        </span> 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original-wordmark.svg" className="text-end dev-img" alt="devicon logo"/>
-        <span>
-            SaSS
-        </span> 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" className="text-end dev-img" alt="sass logo"/>
-        <span>
-            Bootstrap
-        </span> 
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" className="text-end dev-img" alt="bootstrap logo"/> */
