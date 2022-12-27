@@ -19,6 +19,8 @@ export default function Projects(){
                             <li>Responsive display of search results and watchlist</li>
                             <li>Modern UI </li>
                             <li>Movies card with relevant information</li>
+                            <li>Add/remove from watchlist button</li>
+                            <li>Watchlist shows in a different page</li>
                         </ul>
                     </div>
                 </div>
@@ -35,26 +37,28 @@ export default function Projects(){
                 </div>
             </div>            
             <div className="card project-card">
-                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/Project4.jpeg" alt="" className="card-img"/>
+                <img src="https://raw.githubusercontent.com/JoelLH/Images/main/portfolioImages/multi-step-form.png" alt="" className="card-img"/>
                 <div className="card-body">
-                    <a href="https://randomequotejhweb.netlify.app/#" className="card-title title-color">
-                        Random Quote Machine
+                    <a href="https://multi-step-form-joel.netlify.app/" className="card-title title-color">
+                        Multi Step form 
                     </a>
-                    
                     <p className="card-text ">
-                        Features: 
+                        <p>Multip step form app to handle subscriptions. This is a frontEndMentor challenge in wich you have to build a form to manage subscritions for a video game service platform.  It was build using React.js and React-router
+                        </p>
+                            Features: 
                         <ul className="project-ul">
-                            <li>Fetch random quote from public API</li>
-                            <li>Displays random quote each time new quote button is pressed</li>
-                            <li>Changes background color when a new quote is displayed</li>
+                            <li>4 Step app (Personal Info, plan selection, add-ons, Summary)</li>
+                            <li>Responsive web app</li>
+                            <li>Modern ui</li>
+                            <li>Year/Month price calculation</li>
                         </ul>
                     </p>
                 </div>
                 <div className="card-footer d-flex justify-content-between">
                     <div className="site-links d-flex">
-                        <a href="https://github.com/JoelLH/Projects/tree/main/random-quote-machine" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  className="dev-img" alt="github logo"/></a>
+                        <a href="https://github.com/JoelLH/frontend-projects/tree/main/multi-step-form-main-react" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  className="dev-img" alt="github logo"/></a>
                         
-                        <a href="https://randomequotejhweb.netlify.app/#" className="card-live-link" target="_blank">Live</a>
+                        <a href="https://multi-step-form-joel.netlify.app/" className="card-live-link" target="_blank">Live</a>
                     </div>
                     <div className="site-tech d-flex">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className="text-end dev-img" alt="react logo"/>
@@ -163,6 +167,7 @@ export default function Projects(){
                         <ul className="project-ul">
                             <li>Responsive web app</li>
                             <li>Like and dislike buttons which trigger animations and display a corresponding badge</li>
+                            <li>Dog user changes on swipe</li>
                         </ul>
                     </div>
                 </div>
